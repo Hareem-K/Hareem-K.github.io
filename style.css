@@ -1,129 +1,134 @@
 /*flexbox*/
 
 * {
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Georgia", Times, serif;
-    text-decoration: none;
-}
-  
-body {
-    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Georgia", Times, serif;
+  text-decoration: none;
 }
 
-  /* Top solid border */
+body {
+  margin: 0;
+}
+
+/* Top solid border */
 hr.solid {
-    border-top: 2px solid #8A2BE2;
+  border-top: 10px solid white;
 } 
-  
-  /*center menu items*/
+
+/*center menu items*/
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 1px Solid #D3D3D3;
+padding: 10px;
+z-index: 1;
+position: fixed;
+width: 100%;
+margin-top: -20px;
+height: 60px;
+text-align: center;
+border-bottom: 1px Solid #D3D3D3;
+border-top: 2px Solid #8A2BE2;
+background-color: white;
 }
-  
-  /* gets rid of bullet points in list*/
+
+/* gets rid of bullet points in list*/
 .nav__links {
-    list-style: none;
+  list-style: none;
 }
-  
-  /*makes list horizontal*/
+
+/*makes list horizontal*/
 .nav__links li {
-    display: inline-block;
-    padding: 0px 20px;  
+  display: inline-block;
+  padding: 0px 20px;  
 }
-  
-  /*change link color*/
+
+/*change link color*/
 .nav__links li a {
-    color: black;
+  color: black;
 }
-  
-  /*color when you hover over linksr*/
+
+/*color when you hover over linksr*/
 .nav__links li a:hover{
-    color: #8A2BE2;
+  color: #8A2BE2;
 }
-  
+
 /*change color of menu text of current page*/
 .nav__links li{
-    color: #8A2BE2;
+  color: #8A2BE2;
 }
-  
-  /*changing shape of photo from rectangle to circle */
+
+/*changing shape of photo from rectangle to circle */
 img {
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
-  
-  /*side bar formatting*/
+
+/*side bar formatting*/
 .sidebar {
-  margin: 0;
-  padding: 20px 0;
-  top: 20;
-  left: 0;
-  width: 450px;
-  background-color: white;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-  text-align: center;
-  border-right: 1px Solid #D3D3D3;
+margin: 0;
+padding: 60px 0;
+top: 20;
+left: 0;
+width: 500px;
+background-color: white;
+position: fixed;
+height: 100%;
+overflow: auto;
+text-align: center;
+border-right: 1px Solid #D3D3D3;
 }
 
 .sidebar a {
-    color: #8A2BE2;
-  }
-  
+  color: #8A2BE2;
+}
+
 /*main content beside side bar*/
 main {
-  margin-left: 150px;
-  margin-right: -100px;
-  padding: 1px 350px;
-  height: 800px;
+margin-left: 150px;
+margin-right: -100px;
+padding: 40px 400px;
+height: 700px;
 }
 
 main progress {
-    height:24px;
-    width:250%;
-    position: relative; 
+  height:24px;
+  width:250%;
+  position: relative; 
 }
 
 main a {
-    color: #8A2BE2;
+  color: #8A2BE2;
 }
 
 main table {
-  border-spacing: 10px;
+border-spacing: 10px;
 }
 
 main i {
-    position:relative;
-    top:50px;
-    color: grey;
+  position:relative;
+  top:50px;
+  color: grey;
 }
 
 @media screen and (max-width: 800px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-    border-bottom: 1px Solid #D3D3D3;
-  }
-  .sidebar a {float: center;}
-  main {margin-left: 0;  margin: 0 -250px; flex: 1; align-self: center;}
+.sidebar {
+  width: 100%;
+  height: auto;
+  position: relative;
+  border-bottom: 1px Solid #D3D3D3;
 }
-  
-  /*copywrite tag*/
+.sidebar a {float: center;}
+main {margin-left: 0;  margin: 0 -250px; flex: 1; align-self: center;}
+}
+
+/*copywrite tag*/
 .footer {
-    position:fixed;
-    bottom:0;
-    left:0;
-    width:100%;
-    height: 90px;
-    background-color: white;
-    text-align: center;
-    border-top: 1px Solid #D3D3D3;    
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 90px;
+  background-color: white;
+  text-align: center;
+  border-top: 1px Solid #D3D3D3;    
 }
-  
