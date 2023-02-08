@@ -23,7 +23,7 @@ z-index: 1;
 position: fixed;
 width: 100%;
 margin-top: -20px;
-height: 60px;
+height: 70px;
 text-align: center;
 border-bottom: 1px Solid #D3D3D3;
 border-top: 2px Solid #8A2BE2;
@@ -86,7 +86,7 @@ border-right: 1px Solid #D3D3D3;
 main {
 margin-left: 150px;
 margin-right: -100px;
-padding: 40px 400px;
+padding: 45px 400px;
 height: 700px;
 }
 
