@@ -121,6 +121,11 @@ main i {
 main {margin-left: 0;  margin: 0 -250px; flex: 1; align-self: center; border-top: 1px Solid #D3D3D3;}
 }
 
+html, body{
+  width:100%;
+  overflow-x:hidden;
+}
+
 /*copywrite tag*/
 .footer {
   position:fixed;
